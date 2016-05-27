@@ -1,0 +1,132 @@
+@import "core/variables";
+@import "core/mixins";
+@import "core/functions";
+@import "core/fonts";
+@import "core/nav";
+
+@include font-face(Halis, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_2_0', null, null, eot woff ttf);
+@include font-face(HalisLight, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_0_0', null, null, eot woff ttf);
+@include font-face(HalisBold, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F5_1_0', null, null, eot woff ttf);
+
+// Use for any elements hidden initilly
+.hidden {
+	visibility: hidden;
+}
+
+// Body
+.body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Halis";
+}
+
+.desktop-only {
+	// Hide for mobile
+	@include mobile-only {
+		display: none;
+	}
+}
+.mobile-only {
+	// Hide for desktop
+	@include desktop-and-up {
+		display: none;
+	}
+}
+.buffer {
+		margin-top: 5%;
+	
+}
+
+.main {
+
+}
+
+.home {
+
+	#title {
+		font-size: 2.9em;
+		text-align: center;
+
+		#blurred {
+			font-style: italic;
+			// @include filter(blur, 9px);
+		}
+	}
+
+	#main-blurb {
+	  font-family: "HalisLight";
+		font-size: large;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	#categories {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+	}
+
+	.category {
+
+		max-width: 100%;
+    min-height: 190px;
+		margin-right: 0;
+		font-size: x-large;
+
+		.blur {
+			
+			@include filter(blur, 9px);
+
+		}
+		.transparent {
+			
+			opacity: 0;
+
+		}
+
+		.bg { 
+		  position: absolute;
+		  left: 0;
+		  right: 0;
+		  z-index: 1;
+
+		  display: block;
+		  width: 100%;
+	    height: 50%;
+		  max-height: 500%;
+
+		  cursor: pointer;
+
+		  // @include transition(-webkit-filter .1s ease);
+		  // @include transition(-moz-filter .1s);
+		  // @include transition(-ms-filter .1s);
+		  // @include transition(-o-filter .1s);
+		  @include transition(all .2s ease-in-out);
+		}
+
+		.content {
+			padding-top: 6%;
+	    position: absolute;
+
+		  left: 0;
+		  right: 0;
+		  z-index: 2;
+
+		  display: block;
+		  width: 100%;
+		  height: 100%;
+
+		  @include transition(opacity .2s ease-in-out);
+		}
+		.name {
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		.right {
+			font-size: medium;
+			text-align: center;
+		}
+
+	}
+
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Uncertainty Dictionary",
+	"database": "uncertainty-dictionary",
+	"subdomain": "uncertainty",
+	"allowed_domains": ["uncertainty.io"],
+	"admin_nav": { 
+									"index": ["Index"]
+								}
+}

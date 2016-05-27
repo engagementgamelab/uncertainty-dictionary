@@ -1,0 +1,50 @@
+{{!< default}}
+<!--====================BEGIN HOME==============-->
+<div class="container-fluid home">
+	<div class="row">
+		
+		<!-- main start -->
+		<!-- ================ -->
+		<section class="main buffer">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-3" id="title">
+				{{!-- {{jsonPrint index}} --}}
+				the VISUAL CATALOGUE of <span id="blurred">UNCERTAINTY</span> in DATA
+			</div>
+		</section>
+
+	</div>
+
+		<div class="buffer" id="main-blurb">
+			{{{index.intro.html}}}
+		</div>
+
+		<section class="buffer" id="categories">
+			{{#each categories}}
+
+				<a href="#">
+					<div class="category" style="color: {{color}};">
+						
+						<div class="bg blur" style="background-image: url({{cloudinaryUrl image crop='fill' width=1500 height=190}});"></div>
+						
+						<div class="content">
+							<div class="col-sm-5"></div>
+
+							<div class="col-sm-4">
+								<div class="name">{{name}}</div>
+							</div>
+							
+							<div class="col-sm-3 right">
+								<div class="author">{{author}}</div>
+							</div>
+						</div>
+
+					</div>
+				</a>
+
+			{{/each}}
+		</section>
+			
+
+</div> <!-- .container-fluid -->

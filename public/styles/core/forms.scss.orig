@@ -1,0 +1,77 @@
+.form { 
+
+	input {
+
+		padding: 20px;
+	  font-size: x-large;
+	  margin-bottom: 20px;
+	  position: relative;
+
+	  &:focus {
+	    outline: none !important;
+	    border:6px solid #00c5c2;
+	    box-shadow: 0 0 10px #719ECE;
+		}
+
+	}
+
+	input[type=submit].default {
+
+		color: #00c5c2;
+		font-weight: bold;
+		border: 0;
+
+	}
+
+<<<<<<< HEAD
+	input.prompt {
+		width: 100%;
+		display: inline;
+	}
+
+	.input-container {
+	
+	  position: relative;
+	
+	}
+	.input-container input {
+	
+	  width: 100%;
+	  padding-left: 30px;
+	  margin-bottom: -20px;
+	
+	}
+	.input-container .octothorp {
+
+    position: absolute;
+    display: block;
+    top: 24px;
+    color: gray;
+    padding-left: 5px;
+    width: 45px;
+    font-size: x-large;
+    vertical-align: middle;
+	
+	}
+
+=======
+}
+
+.input [type=checkbox] {
+		margin: 1px;
+		
+	}
+
+.input-box {
+	background-color: white;
+	border: solid black 1px;	
+}
+
+.moderatorInput {
+	margin: 10px auto;
+	display: block; 
+	border: 1px solid #d7d6d6; 
+	background: #fff; 
+	padding: 10px 10px 10px 20px; 
+>>>>>>> 2b03207c5b6b390c45f20d5c933e45464c2bba2e
+}
