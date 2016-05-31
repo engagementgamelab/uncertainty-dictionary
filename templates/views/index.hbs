@@ -20,10 +20,12 @@
 			{{{index.intro.html}}}
 		</div>
 
+	<div class="row">
+
 		<section class="buffer" id="categories">
 			{{#each categories}}
 
-				<a href="#">
+				<a href="/{{key}}">
 					<div class="category" style="color: {{color}};">
 						
 						<div class="bg blur" style="background-image: url({{cloudinaryUrl image crop='fill' width=1500 height=190}});"></div>
@@ -45,6 +47,7 @@
 
 			{{/each}}
 		</section>
-			
+		
+	</div>
 
 </div> <!-- .container-fluid -->

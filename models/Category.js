@@ -34,7 +34,16 @@ var Category = new keystone.List('Category',
 Category.add({
 
 	name: { type: String, label: 'Name', required: true, initial: true },
-	author: { type: String, label: 'Author',  initial: true, required: true },
+	author: { type: String, label: 'Author', initial: true, required: true },
+
+	subHeading: { type: String, label: 'Sub-Heading', required: true, initial: true },
+	fields: { type: String, label: 'Fields/Discipline', initial: true, required: true },
+	dataType: { type: String, label: 'Type of Data', initial: true, required: true },
+	related: { type: String, label: 'Related Types', initial: true, required: true },
+
+	intro: { type: Types.Markdown, label: 'Intro Conent', required: true, initial: true, toolbarOptions: { hiddenButtons: 'H1,H2,H3,H4,Code,Image,Quote' } },
+	content: { type: Types.Markdown, label: 'Page Conent', required: true, initial: true, height: 250, toolbarOptions: { hiddenButtons: 'H3,H4,Code' }},
+
 	image: { type: Types.CloudinaryImage, label: 'Category Image', folder: 'uncertainty-dictionary', autoCleanup: true },
 	color: { type: Types.Color, label: 'Theme Color', note: 'Color of text in category listing & header color.' },
 	

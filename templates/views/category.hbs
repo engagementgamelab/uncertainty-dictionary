@@ -1,0 +1,82 @@
+{{!< default}}
+<!--====================BEGIN category==============-->
+<style type="text/css">
+	
+	#body strong {
+		color: {{category.color}};
+	}
+	blockquote:before {
+		color: {{category.color}};
+	}
+	blockquote:after {
+		color: {{category.color}};
+	}
+	figcaption {
+		background-color: {{category.color}};
+	}
+
+</style>
+
+<div class="container-fluid category body">
+	<div class="row">
+		
+		<section class="main" id="page-header" style="background-image: url({{cloudinaryUrl category.image crop='scale' width=1500 height=500}});">
+						
+					<h1 id="title">{{category.name}}</h1>
+
+		</section>
+
+		<section id="category-intro">
+			<div id="intro-facts">
+				<ul>
+					<li>
+						<h1>Name</h1>
+						{{category.name}}
+					</li>
+					
+					<li>
+						<h1>Fields</h1>
+						{{category.fields}}
+					</li>
+					
+					<li>
+						<h1>Type</h1>
+						{{category.dataType}}
+					</li>
+					
+					<li>
+						<h1>Related Types</h1>
+						{{category.related}}
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="clear">
+			</div>
+
+			<div id="intro-sub-header" class="heading right" style="background-color:{{category.color}}">
+				{{category.subHeading}}
+			</div>
+
+			<div class="clear">
+			</div>
+
+
+			<div id="intro-body">
+				{{{category.intro.html}}}
+			</div>
+
+			<div class="heading left" style="background-color:{{category.color}}">
+				<p>Explanation</p>
+			</div>
+
+		</section>
+
+		<section id="body">
+			{{{category.content.html}}}
+		</section>
+
+	</div>
+
+</div>

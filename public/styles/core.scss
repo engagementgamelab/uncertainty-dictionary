@@ -3,6 +3,7 @@
 @import "core/functions";
 @import "core/fonts";
 @import "core/nav";
+@import "core/category";
 
 @include font-face(Halis, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_2_0', null, null, eot woff ttf);
 @include font-face(HalisLight, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_0_0', null, null, eot woff ttf);
@@ -17,7 +18,7 @@
 .body {
   background-color: #000;
   color: #fff;
-  font-family: "Halis";
+  font-family: "HalisLight";
 }
 
 .desktop-only {
@@ -121,6 +122,7 @@
 		.name {
 			text-transform: uppercase;
 			font-weight: bold;
+		  font-family: "Halis";
 		}
 		.right {
 			font-size: medium;
