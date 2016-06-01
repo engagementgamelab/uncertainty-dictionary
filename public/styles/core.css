@@ -336,3 +336,14 @@
   .home .category .right {
     font-size: medium;
     text-align: center; }
+
+footer div {
+  padding-top: 1%;
+  color: #A7A7A7; }
+
+footer img {
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  filter: grayscale(1); }
