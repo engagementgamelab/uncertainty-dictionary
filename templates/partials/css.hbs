@@ -26,8 +26,6 @@
 {{#ifeq environment "development"}}
 
 	{{!-- DEVELOPMENT --}}
-	<!-- Custom fonts -->
-	{{!-- <link href="/fonts/fonts.css" rel="stylesheet"/> --}}
 	
 	<!-- Bootstrap core CSS -->
 	<link href="/styles/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +38,7 @@
 {{else}}
 
 	{{!-- PRODUCTION --}}
-	<link href="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1459273046/site/styles/core.css" rel="stylesheet">
-	<link href="https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/production.css" rel="stylesheet">
+	<link href="https://res.cloudinary.com/engagement-lab-home/raw/upload/site/styles/core.css" rel="stylesheet">
+	<link href="/release/production.css" rel="stylesheet">
 
 {{/ifeq}}
