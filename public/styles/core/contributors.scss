@@ -1,0 +1,48 @@
+.white {
+  background-color: #FFF;
+}
+#contributors {
+
+  background-color: #FFF;
+  color: #000;
+  text-align: center;
+
+  // FontAwesome icon
+  .fa {
+    color: #f9a53a;
+    margin-right: 1em;
+    font-size: large;
+  }
+
+  h1 {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "HalisBold";
+  }
+  h2 {
+    font-size: large;
+    font-weight: bold;
+    font-family: "HalisBold";
+  }
+
+  #intro {
+    font-size: large;
+    background-color: #f9a53a;
+    padding: 2%;
+  }
+
+  #border {
+    border-bottom: solid 5px #f9a53a;
+  }
+  .pi {
+  }
+
+  .contributor {
+  }
+
+  .bio {
+    text-align: justify;
+    font-size: large;
+  }
+
+}

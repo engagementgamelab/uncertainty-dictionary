@@ -4,6 +4,7 @@
 @import "core/fonts";
 @import "core/nav";
 @import "core/category";
+@import "core/contributors";
 
 @include font-face(Halis, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_2_0', null, null, eot woff ttf);
 @include font-face(HalisLight, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_0_0', null, null, eot woff ttf);
@@ -12,6 +13,10 @@
 // Use for any elements hidden initilly
 .hidden {
 	visibility: hidden;
+}
+
+.clear {
+  clear: both;
 }
 
 // Body

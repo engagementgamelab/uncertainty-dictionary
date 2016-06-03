@@ -70,9 +70,6 @@
 .toggle {
   margin: 5px 5px 0 0; }
 
-.category .clear {
-  clear: both; }
-
 .category .heading {
   padding: 3%;
   font-size: xx-large;
@@ -248,6 +245,35 @@
       .category #body blockquote p {
         font-size: 2.5em; } }
 
+.white {
+  background-color: #FFF; }
+
+#contributors {
+  background-color: #FFF;
+  color: #000;
+  text-align: center; }
+  #contributors .fa {
+    color: #f9a53a;
+    margin-right: 1em;
+    font-size: large; }
+  #contributors h1 {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "HalisBold"; }
+  #contributors h2 {
+    font-size: large;
+    font-weight: bold;
+    font-family: "HalisBold"; }
+  #contributors #intro {
+    font-size: large;
+    background-color: #f9a53a;
+    padding: 2%; }
+  #contributors #border {
+    border-bottom: solid 5px #f9a53a; }
+  #contributors .bio {
+    text-align: justify;
+    font-size: large; }
+
 @font-face {
   font-family: "Halis";
   src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_2_0.eot?") format("eot"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_2_0.woff") format("woff"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_2_0.ttf") format("truetype"); }
@@ -262,6 +288,9 @@
 
 .hidden {
   visibility: hidden; }
+
+.clear {
+  clear: both; }
 
 .body {
   background-color: #000;

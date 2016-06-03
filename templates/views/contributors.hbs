@@ -1,0 +1,52 @@
+{{!< default}}
+<!--====================BEGIN CONTRIBUTORS==============-->
+<div class="col-sm-12" id="contributors">
+<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+
+		<div class="row" id="intro">
+
+			<h1>Contributors</h1>
+			{{{intro.html}}}
+			
+		</div>
+			
+		<div class="row">
+			<h1>Principal Investigators</h1>
+
+			<section class="buffer" id="pis">
+				{{#each pis}}
+					<div class="col-sm-6 pi">
+						<img src="{{cloudinaryUrl photo width=250 height=250 }}" />
+						<h2>{{name.first}} {{name.last}}</h2>
+						<div class="bio tk-ltc-bodoni-175">{{{bio.html}}}</div>
+						<div class="website"><i class="fa fa-globe"></i><a href="{{website}}">{{urlPurty website}}</a></div>
+					</div>
+				{{/each}}
+			</section>
+			
+		</div>
+
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6" id="border">&nbsp;</div>
+		<div class="col-sm-3"></div>
+			
+		<div class="row clear">
+			<h1>Contributors</h1>
+
+			<section class="buffer" id="pis">
+				{{#each contributors}}
+					<div class="col-sm-6 contributor">
+						<h2>{{name.first}} {{name.last}}</h2>
+						<div class="bio tk-ltc-bodoni-175">{{{bio.html}}}</div>
+						<div class="website"><i class="fa fa-globe"></i><a href="{{website}}">{{urlPurty website}}</a></div>
+					</div>
+				{{/each}}
+			</section>
+			
+		</div>
+
+	</div>
+
+	<div class="col-sm-2"></div>
+</div>
