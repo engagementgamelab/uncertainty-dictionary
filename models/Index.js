@@ -34,7 +34,7 @@ var Index = new keystone.List('Index',
 Index.add({
 	name: { type: String, default: "Index Page", hidden: true, required: true, initial: true },
 	intro: { type: Types.Markdown, label: "Intro Text",  initial: true, required: true },
-	// description: { type: Types.Textarea, label: "Description",  initial: true, required: true },
+	getInvolved: { type: Types.Markdown, label: "Get Involved Text",  initial: true, required: true },
 	
 	createdAt: { type: Date, default: Date.now, noedit: true, hidden: true }
 });

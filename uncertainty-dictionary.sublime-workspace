@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-family"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sr",
+				"script	Tag"
+			],
+			[
+				"res",
+				"resultCat"
+			],
+			[
+				"time",
+				"timeline"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
 				"files",
 				"filesArr"
 			],
@@ -118,10 +150,6 @@
 			[
 				"ski",
 				"skipVersion"
-			],
-			[
-				"res",
-				"resultCPI"
 			],
 			[
 				"co",
@@ -396,10 +424,6 @@
 				"projectImages"
 			],
 			[
-				"re",
-				"research"
-			],
-			[
 				"proje",
 				"projectImages"
 			],
@@ -452,10 +476,6 @@
 				"model_name"
 			],
 			[
-				"ma",
-				"margin-right"
-			],
-			[
 				"proe",
 				"projectImages"
 			],
@@ -494,26 +514,6 @@
 			[
 				"publi",
 				"publications"
-			],
-			[
-				"font-",
-				"font-style"
-			],
-			[
-				"paddin",
-				"padding-bottom"
-			],
-			[
-				"css",
-				"cssType"
-			],
-			[
-				"mim",
-				"mimeType"
-			],
-			[
-				"f",
-				"filetype"
 			]
 		]
 	},
@@ -523,26 +523,56 @@
 			"file": "/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/config.json",
 			"settings":
 			{
-				"buffer_size": 199,
+				"buffer_size": 201,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/package.json",
+			"file": "templates/layouts/base.hbs",
 			"settings":
 			{
-				"buffer_size": 489,
+				"buffer_size": 1490,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Searching 62 files for \"Boston Civic Media Website\" (case sensitive)\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/public/js/custom.js:\n    1  /**\n    2:  * Boston Civic Media Website\n    3   * Developed by Engagement Lab, 2016\n    4   * ==============\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/routes/views/about.js:\n    1  /**\n    2:  * Boston Civic Media Website\n    3   * Developed by Engagement Lab, 2016\n    4   * ==============\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/partials/css.hbs:\n    2  {{!-- \n    3  /**\n    4: 	* Boston Civic Media Website\n    5  	* Developed by Engagement Lab, 2015\n    6  	* ==============\n\n3 matches across 3 files\n\n\nSearching 62 files for \"Boston Civic Media Website\" (case sensitive)\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/public/js/custom.js:\n    1  /**\n    2:  * Boston Civic Media Website\n    3   * Developed by Engagement Lab, 2016\n    4   * ==============\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/routes/views/about.js:\n    1  /**\n    2:  * Boston Civic Media Website\n    3   * Developed by Engagement Lab, 2016\n    4   * ==============\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/partials/css.hbs:\n    2  {{!-- \n    3  /**\n    4: 	* Boston Civic Media Website\n    5  	* Developed by Engagement Lab, 2015\n    6  	* ==============\n\n3 matches across 3 files\n\n\nSearching 62 files for \"Developed by Engagement Lab, 2015\" (case sensitive)\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/partials/css.hbs:\n    3  /**\n    4  	* The Uncertainty Dictionary\n    5: 	* Developed by Engagement Lab, 2015\n    6  	* ==============\n    7  	* \n\n1 match in 1 file\n\n\nSearching 124 files for \"Boston Civic Media Website\" (case sensitive)\n\n0 matches\n\nSearching 125 files for \"Boston Civic Media\" (case sensitive)\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/layouts/base.hbs:\n    6  	<head>\n    7  		<meta charset=\"utf-8\">\n    8: 		<title>Boston Civic Media</title>\n    9: 		<meta name=\"description\" content=\"Boston Civic Media is a faculty-led network that aims to advance the transdisciplinary domain of civic media research and pedagogy in the Greater Boston Area.\">\n   10  		<meta name=\"author\" content=\"Engagement Lab\">\n   11  		<!-- Mobile Meta -->\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/partials/nav.hbs:\n    6  	    		<a href=\"/\">\n    7  		    		<div class=\"logo-container\">\n    8: 		    			<img id=\"logo_img\" src=\"/images/logos/logo_color_small.png\" alt=\"Boston Civic Media\"> <p>Boston Civic Media</p>\n    9  		    		</div>\n   10  		    	</a>\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/views/index.hbs:\n   10  				{{!-- Connecting the dots between academia, government, and civil society organizations in Boston to advance civic media. --}}</div>\n   11  				<div class=\"main-description\">{{missionStatements.[1]}}\n   12: 				{{!-- Boston Civic Media is a faculty-led network that aims to advance the transdisciplinary domain of civic media research and pedagogy in the Greater Boston Area. This initiative shares knowledge, promotes engaged research, and builds relationships among academics, nonprofits, community-based organizations, government leaders, practitioners, and students. There are plenty of ways to get involved. --}}</div>\n   13  			</div>\n   14  		</div>\n\n<untitled 309>:\n    ERROR: Unable to open file\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/layouts/base.hbs:\n    6  	<head>\n    7  		<meta charset=\"utf-8\">\n    8: 		<title>Boston Civic Media</title>\n    9: 		<meta name=\"description\" content=\"Boston Civic Media is a faculty-led network that aims to advance the transdisciplinary domain of civic media research and pedagogy in the Greater Boston Area.\">\n   10  		<meta name=\"author\" content=\"Engagement Lab\">\n   11  		<!-- Mobile Meta -->\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/partials/nav.hbs:\n    6  	    		<a href=\"/\">\n    7  		    		<div class=\"logo-container\">\n    8: 		    			<img id=\"logo_img\" src=\"/images/logos/logo_color_small.png\" alt=\"Boston Civic Media\"> <p>Boston Civic Media</p>\n    9  		    		</div>\n   10  		    	</a>\n\n/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/views/index.hbs:\n   10  				{{!-- Connecting the dots between academia, government, and civil society organizations in Boston to advance civic media. --}}</div>\n   11  				<div class=\"main-description\">{{missionStatements.[1]}}\n   12: 				{{!-- Boston Civic Media is a faculty-led network that aims to advance the transdisciplinary domain of civic media research and pedagogy in the Greater Boston Area. This initiative shares knowledge, promotes engaged research, and builds relationships among academics, nonprofits, community-based organizations, government leaders, practitioners, and students. There are plenty of ways to get involved. --}}</div>\n   13  			</div>\n   14  		</div>\n\n10 matches across 6 files\n",
+			"file": "templates/partials/footer.hbs",
 			"settings":
 			{
-				"buffer_size": 5021,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 620,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/partials/script/global.hbs",
+			"settings":
+			{
+				"buffer_size": 1727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/partials/script/development.hbs",
+			"settings":
+			{
+				"buffer_size": 875,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/styles/core/mixins.scss",
+			"settings":
+			{
+				"buffer_size": 7824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/partials/script/production.hbs",
+			"settings":
+			{
+				"buffer_size": 614,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -668,11 +698,48 @@
 	"expanded_folders":
 	[
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/grunt",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models"
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/bower_components",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/plugins",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/views",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/layouts",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/views",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/views/errors"
 	],
 	"file_history":
 	[
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core.scss",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/category.scss",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models/Category.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/views/category.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/css.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/.bowerrc",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script/development.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script/production.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/app.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/views/index.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/views/category.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/views/errors/404.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script/global.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/index.js",
+		"/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/package.json",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/mixins.scss",
+		"/Users/Johnny/Documents/MyFontsWebfontsKit 2/MyFontsWebfontsKit.css",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/grunt/cssmin.js",
+		"/Volumes/BARRACKS/views/shared/_lineage.html.erb",
+		"/Users/Johnny/Documents/MyFontsWebfontsKit/MyFontsWebfontsKit.css",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/views/index.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/nav.scss",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/nav.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/footer.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/helpers/index.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models/About.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/middleware.js",
 		"/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/layouts/base.hbs",
 		"/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/public/js/custom.js",
 		"/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/views/index.hbs",
@@ -773,34 +840,7 @@
 		"/Users/Johnny/Documents/Projects/EL-Website/grunt/concat.js",
 		"/Users/Johnny/Documents/Projects/EL-Website/sites/emerging-citizens/config.json",
 		"/Users/Johnny/Documents/Projects/EL-Website/sites/emerging-citizens/package.json",
-		"/Users/Johnny/Documents/Projects/EL-Website/.env",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/elab/node_modules/mongoose/lib/index.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/jobs/readme.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/grunt/mongobin.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/elab/node_modules/keystone/lib/core/mount.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/node_modules/mongoose/lib/index.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/node_modules/keystone/lib/core/connect.js",
-		"/Users/Johnny/Documents/Projects/keystone-slacker/package.json",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/elab/models/Resource.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/grunt/confirm",
-		"/Users/Johnny/Documents/Projects/keystone-slacker/app.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/node_modules/keystone-slacker/app.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/elab/routes/middleware.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/node_modules/helmet/node_modules/frameguard/index.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/routes/views/index.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/templates/views/index.hbs",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/templates/partials/script/sections.hbs",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/templates/partials/script/development.hbs",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/elab/public/static/riskhorizon/index.html",
-		"/Users/Johnny/Documents/Projects/riskhorizon2/server/indexUnityWebPlayer.html",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/elab/routes/views/html/riskhorizon.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/models/Device.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/templates/partials/css.hbs",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/node_modules/keystone/index.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/node_modules/keystone/lib/updates.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/node_modules/keystone/lib/view.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/updates/0.0.1-admins.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/config.json"
+		"/Users/Johnny/Documents/Projects/EL-Website/.env"
 	],
 	"find":
 	{
@@ -895,9 +935,23 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"\n<",
+			"left",
+			"content",
+			"true",
+			"())",
+			");\n",
+			"emerging-citizens",
+			"Avenir",
+			"linear_transition",
+			"main",
+			"Index",
+			">\n",
+			"About",
+			"about",
 			"Boston Civic Media",
 			"Boston Civic Media Website",
 			"Developed by Engagement Lab, 2015",
@@ -1011,21 +1065,7 @@
 			"people_glider",
 			".embed-container",
 			"'/';",
-			"app",
-			"'",
-			"keystone.mount('/', keystone, function() {\n		//put your app's static content and error handling middleware here and start your server\n\n	});\n",
-			"()",
-			"// ensure keystone nav has been initialised",
-			".routes",
-			"adminApp",
-			"/keystone",
-			"static/uh",
-			"		\n",
-			"Articles and Chapters",
-			"embed-container",
-			"echo",
-			"onMount",
-			"keystone.init({\n	\n	'name': 'Engagement Lab',\n	'brand': 'Engagement Lab',\n	\n	'sass': 'public',\n	\n	'static': 'public',\n	'favicon': 'public/favicons/favicon.ico',\n	'views': 'templates/views',\n	'view engine': 'hbs',\n	\n	'custom engine': handlebars.create({\n		layoutsDir: 'templates/layouts',\n		partialsDir: 'templates/partials',\n		defaultLayout: 'base',\n		helpers: new require('./templates/helpers')(),\n		extname: '.hbs'\n	}).engine,\n	\n	'mongo': process.env.MONGO_URI,\n\n	'auto update': true,\n	'session': true,\n\n	'auth': true,\n	'user model': 'User'\n	\n});"
+			"app"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1033,6 +1073,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"uncertainty-dictionary",
+			"Halis",
+			"transition",
+			"Category",
+			"Index",
+			"index",
 			"The Uncertainty Dictionary",
 			"Developed by Engagement Lab, 2016",
 			"The Uncertainty Dictionary",
@@ -1125,7 +1171,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1134,15 +1180,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 199,
+						"buffer_size": 201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								102,
-								102
+								144,
+								104
 							]
 						],
 						"settings":
@@ -1154,147 +1200,180 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/package.json",
+					"file": "templates/layouts/base.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 489,
+						"buffer_size": 1490,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								224,
-								224
+								965,
+								965
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Theme - Coffee/icons/Langs/npm JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/partials/footer.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
+					"file": "templates/partials/script/global.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5021,
+						"buffer_size": 1727,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										168,
-										194
-									],
-									[
-										365,
-										391
-									],
-									[
-										581,
-										607
-									],
-									[
-										873,
-										899
-									],
-									[
-										1070,
-										1096
-									],
-									[
-										1286,
-										1312
-									],
-									[
-										1629,
-										1662
-									],
-									[
-										2012,
-										2030
-									],
-									[
-										2082,
-										2100
-									],
-									[
-										2565,
-										2583
-									],
-									[
-										2589,
-										2607
-									],
-									[
-										2965,
-										2983
-									],
-									[
-										3601,
-										3619
-									],
-									[
-										3671,
-										3689
-									],
-									[
-										4154,
-										4172
-									],
-									[
-										4178,
-										4196
-									],
-									[
-										4554,
-										4572
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								1802,
-								1802
+								1630,
+								1630
 							]
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 5,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ 	].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1284.0,
+						"translation.y": 234.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/partials/script/development.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/styles/core/mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Theme - Coffee/icons/Langs/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/partials/script/production.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1339,6 +1418,10 @@
 	{
 		"height": 0.0
 	},
+	"output.unsaved_changes":
+	{
+		"height": 98.0
+	},
 	"output.variable_get":
 	{
 		"height": 0.0
@@ -1347,7 +1430,7 @@
 	"project": "uncertainty-dictionary.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 88.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1356,6 +1439,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"mixins",
+				"public/styles/core/mixins.scss"
+			],
+			[
+				"global.hbs",
+				"templates/partials/script/global.hbs"
+			],
+			[
+				"index.hbs",
+				"templates/views/index.hbs"
+			],
+			[
+				"base",
+				"templates/layouts/base.hbs"
+			],
 			[
 				"unlocki",
 				"EL-Website/sites/elab/templates/html/unlockinghealth.html"
@@ -1419,10 +1518,6 @@
 			[
 				"featured",
 				"EL-Website/templates/partials/index/featured_project.hbs"
-			],
-			[
-				"index.hbs",
-				"EL-Website/templates/views/index.hbs"
 			],
 			[
 				"project.js",
@@ -1855,18 +1950,6 @@
 			[
 				"indicatorscanvas",
 				"Assets/Scripts/UI/Notebook/IndicatorsCanvas.cs"
-			],
-			[
-				"scenemana",
-				"Assets/Scripts/SceneManager.cs"
-			],
-			[
-				"menusmana",
-				"Assets/Scripts/UI/Menus/MenusManager.cs"
-			],
-			[
-				"screensizese",
-				"Assets/Scripts/UI/Menus/ScreenSizeHandler.cs"
 			]
 		],
 		"width": 0.0

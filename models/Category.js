@@ -36,7 +36,9 @@ Category.add({
 	name: { type: String, label: 'Name', required: true, initial: true },
 	author: { type: String, label: 'Author', initial: true, required: true },
 
+	introHeading: { type: String, label: 'Intro Heading', required: true, initial: true },
 	subHeading: { type: String, label: 'Sub-Heading', required: true, initial: true },
+	
 	fields: { type: String, label: 'Fields/Discipline', initial: true, required: true },
 	dataType: { type: String, label: 'Type of Data', initial: true, required: true },
 	related: { type: String, label: 'Related Types', initial: true, required: true },
