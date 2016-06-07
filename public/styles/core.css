@@ -261,6 +261,9 @@
       .category #body blockquote p {
         font-size: 2.5em; } }
 
+.white {
+  background-color: #FFF; }
+
 #contributors {
   background-color: #f7f7f7;
   color: #000;
@@ -292,13 +295,17 @@
     margin-right: 35%;
     margin-left: 35%; }
   #contributors .pi {
-    margin-bottom: 4%; }
+    margin-bottom: 4%;
+    margin-right: 2%;
+    padding: 2%; }
   #contributors .contributor {
-    margin-bottom: 4%; }
+    margin-bottom: 4%;
+    margin-right: 2%;
+    padding: 2%; }
   #contributors .bio {
     text-align: justify;
-    font-size: 1em;
-    line-height: 1.33em; }
+    font-size: 1.1em;
+    line-height: 1.5em; }
 
 @font-face {
   font-family: "Halis";
