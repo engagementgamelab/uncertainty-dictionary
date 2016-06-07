@@ -1,5 +1,4 @@
 var _ = require('underscore');
-var hbs = require('handlebars');
 
 module.exports = function() {
 
