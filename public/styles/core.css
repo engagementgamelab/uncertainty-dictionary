@@ -51,9 +51,8 @@
   background: none; }
 
 #menu-toggle {
-  top: 0;
   right: 0;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   min-width: 50px;
   min-height: 50px; }
@@ -72,8 +71,13 @@
 
 .category .heading {
   padding: 3%;
-  font-size: xx-large;
   color: #000; }
+  @media (max-width: 480px) {
+    .category .heading {
+      font-size: 2em; } }
+  @media only screen and (min-width: 1025px) {
+    .category .heading {
+      font-size: 3em; } }
   .category .heading.right {
     float: right;
     text-align: right; }
@@ -82,7 +86,7 @@
         width: 100%; } }
     @media only screen and (min-width: 1025px) {
       .category .heading.right {
-        width: 50%; } }
+        width: 65%; } }
   .category .heading.left {
     -moz-transform: skewX(-10deg);
     -o-transform: skewX(-10deg);
@@ -130,19 +134,21 @@
   .category #page-header #title .word1 {
     font-family: "HalisLight"; }
   .category #page-header #title .word2 {
-    font-style: italic; }
+    font-style: italic;
+    font-weight: bold; }
 
 .category #category-intro #intro-facts {
   background-color: #FFF;
-  color: #000;
-  padding: 3%; }
+  color: #000; }
   @media (max-width: 480px) {
     .category #category-intro #intro-facts {
-      width: 100%; } }
+      width: 100%;
+      padding: 5%; } }
   @media only screen and (min-width: 1025px) {
     .category #category-intro #intro-facts {
       width: 40%;
-      margin: 5%; } }
+      margin: 5%;
+      padding: 3%; } }
 
 .category #category-intro #intro-sub-header {
   margin-top: -8%; }
@@ -165,7 +171,8 @@
 .category #body {
   background-color: #FFF;
   color: #000;
-  padding-top: 90px; }
+  padding-top: 90px;
+  padding-bottom: 5%; }
   @media only screen and (min-width: 769px) {
     .category #body {
       font-size: x-large;
@@ -176,10 +183,19 @@
       line-height: 1.7em; } }
   @media (max-width: 480px) {
     .category #body {
-      font-size: large; } }
-  .category #body p {
-    padding-left: 6%;
-    padding-right: 6%; }
+      font-size: 1.3em; } }
+  @media only screen and (min-width: 769px) {
+    .category #body p {
+      padding-left: 15%;
+      padding-right: 15%; } }
+  @media only screen and (min-width: 481px) {
+    .category #body p {
+      padding-left: 15%;
+      padding-right: 15%; } }
+  @media (max-width: 480px) {
+    .category #body p {
+      padding-left: 6%;
+      padding-right: 6%; } }
   .category #body figure {
     margin: 2%; }
     @media only screen and (min-width: 769px) {
@@ -245,34 +261,44 @@
       .category #body blockquote p {
         font-size: 2.5em; } }
 
-.white {
-  background-color: #FFF; }
-
 #contributors {
-  background-color: #FFF;
+  background-color: #f7f7f7;
   color: #000;
-  text-align: center; }
+  padding-bottom: 5%; }
   #contributors .fa {
     color: #f9a53a;
     margin-right: 1em;
     font-size: large; }
+  #contributors .center {
+    text-align: center; }
   #contributors h1 {
-    font-size: x-large;
+    font-size: 1.4em;
     font-weight: bold;
-    font-family: "HalisBold"; }
+    font-family: "Avenir-Roman"; }
   #contributors h2 {
-    font-size: large;
+    font-size: 1.2em;
     font-weight: bold;
-    font-family: "HalisBold"; }
+    font-family: "Avenir-Roman"; }
   #contributors #intro {
-    font-size: large;
+    font-size: 1.2em;
     background-color: #f9a53a;
-    padding: 2%; }
+    padding: 5%;
+    margin-top: 5%;
+    font-family: "Avenir-Book"; }
+    #contributors #intro h1 {
+      font-size: 1.8em; }
   #contributors #border {
-    border-bottom: solid 5px #f9a53a; }
+    border-bottom: solid 5px #f9a53a;
+    margin-right: 35%;
+    margin-left: 35%; }
+  #contributors .pi {
+    margin-bottom: 4%; }
+  #contributors .contributor {
+    margin-bottom: 4%; }
   #contributors .bio {
     text-align: justify;
-    font-size: large; }
+    font-size: 1em;
+    line-height: 1.33em; }
 
 @font-face {
   font-family: "Halis";
@@ -286,6 +312,18 @@
   font-family: "HalisBold";
   src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F5_1_0.eot?") format("eot"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F5_1_0.woff") format("woff"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F5_1_0.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "Avenir-Book";
+  src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Book.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Light";
+  src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light.eot?") format("eot"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light.woff") format("woff"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Avenir-Roman";
+  src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman.eot?") format("eot"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman.woff") format("woff"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman.ttf") format("truetype"); }
+
 .hidden {
   visibility: hidden; }
 
@@ -295,7 +333,8 @@
 .body {
   background-color: #000;
   color: #fff;
-  font-family: "HalisLight"; }
+  font-family: "HalisLight";
+  font-size: 16px; }
 
 @media (max-width: 480px) {
   .desktop-only {
@@ -308,74 +347,74 @@
 .buffer {
   margin-top: 5%; }
 
-.home #title {
-  font-size: 2.9em;
-  text-align: center; }
-  .home #title #blurred {
-    font-style: italic; }
-
-.home #main-blurb {
-  font-family: "HalisLight";
-  font-size: large;
-  padding-left: 5%;
-  padding-right: 5%; }
-
-.home #categories {
-  overflow: hidden;
-  position: relative;
-  width: 100%; }
-
-.home .category {
-  max-width: 100%;
-  min-height: 190px;
-  margin-right: 0;
-  font-size: x-large; }
-  .home .category .blur {
-    -webkit-filter: blur(9px);
-    -moz-filter: blur(9px);
-    -ms-filter: blur(9px);
-    -o-filter: blur(9px);
-    filter: blur(9px); }
-  .home .category .transparent {
-    opacity: 0; }
-  .home .category .bg {
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    display: block;
-    width: 100%;
-    height: 50%;
-    max-height: 500%;
-    cursor: pointer;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; }
-  .home .category .content {
-    padding-top: 6%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    display: block;
-    width: 100%;
-    height: 100%;
-    -moz-transition: opacity 0.2s ease-in-out;
-    -o-transition: opacity 0.2s ease-in-out;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out; }
-  .home .category .name {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: "Halis"; }
-  .home .category .right {
-    font-size: medium;
+.home {
+  padding-bottom: 5%; }
+  .home #title {
+    font-size: 2.9em;
     text-align: center; }
+    .home #title #blurred {
+      font-style: italic; }
+  .home #main-blurb {
+    font-family: "HalisLight";
+    font-size: x-large;
+    padding-left: 5%;
+    padding-right: 5%; }
+  .home #categories {
+    overflow: hidden;
+    position: relative;
+    width: 100%; }
+  .home .category {
+    max-width: 100%;
+    min-height: 190px;
+    margin-right: 0;
+    font-size: x-large; }
+    .home .category .blur {
+      -webkit-filter: blur(9px);
+      -moz-filter: blur(9px);
+      -ms-filter: blur(9px);
+      -o-filter: blur(9px);
+      filter: blur(9px); }
+    .home .category .transparent {
+      opacity: 0; }
+    .home .category .bg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      display: block;
+      width: 100%;
+      height: 50%;
+      max-height: 500%;
+      cursor: pointer;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+    .home .category .content {
+      padding-top: 6%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      display: block;
+      width: 100%;
+      height: 100%;
+      -moz-transition: opacity 0.2s ease-in-out;
+      -o-transition: opacity 0.2s ease-in-out;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out; }
+    .home .category .name {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: "Halis"; }
+    .home .category .right {
+      font-size: medium;
+      text-align: center; }
 
 footer div {
   padding-top: 1%;
-  color: #A7A7A7; }
+  color: #A7A7A7;
+  font-size: 13px; }
 
 footer img {
   -webkit-filter: grayscale(1);

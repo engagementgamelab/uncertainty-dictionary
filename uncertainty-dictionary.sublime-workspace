@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"font-size"
+			],
+			[
+				"res",
+				"resultIndex"
+			],
+			[
+				"Con",
+				"ContributorsPage"
+			],
+			[
+				"CONTRI",
+				"contributors"
+			],
+			[
 				"font-",
 				"font-family"
 			],
@@ -22,10 +38,6 @@
 			[
 				"sr",
 				"script	Tag"
-			],
-			[
-				"res",
-				"resultCat"
 			],
 			[
 				"time",
@@ -502,76 +514,48 @@
 			[
 				"fi",
 				"function"
-			],
-			[
-				"mdo",
-				"modelName"
-			],
-			[
-				"slakc",
-				"slackUser"
-			],
-			[
-				"publi",
-				"publications"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/config.json",
+			"file": "public/styles/core/contributors.scss",
 			"settings":
 			{
-				"buffer_size": 201,
+				"buffer_size": 630,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/layouts/base.hbs",
+			"file": "templates/partials/nav.hbs",
 			"settings":
 			{
-				"buffer_size": 1490,
+				"buffer_size": 417,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/partials/footer.hbs",
+			"file": "templates/views/contributors.hbs",
 			"settings":
 			{
-				"buffer_size": 620,
+				"buffer_size": 1357,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/partials/script/global.hbs",
+			"file": "public/styles/core/category.scss",
 			"settings":
 			{
-				"buffer_size": 1727,
+				"buffer_size": 4016,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/partials/script/development.hbs",
+			"file": "routes/index.js",
 			"settings":
 			{
-				"buffer_size": 875,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/styles/core/mixins.scss",
-			"settings":
-			{
-				"buffer_size": 7824,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/partials/script/production.hbs",
-			"settings":
-			{
-				"buffer_size": 614,
+				"buffer_size": 1672,
 				"line_ending": "Unix"
 			}
 		}
@@ -698,13 +682,15 @@
 	"expanded_folders":
 	[
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/bower_components",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/plugins",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/views",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/helpers",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/layouts",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script",
@@ -713,22 +699,30 @@
 	],
 	"file_history":
 	[
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/helpers/index.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/css.hbs",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core.scss",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/category.scss",
+		"/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/config.json",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/layouts/base.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/footer.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/views/contributors.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models/ContributorsPage.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models/Contributor.js",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script/global.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script/production.hbs",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models/Category.js",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/views/category.hbs",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/css.hbs",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/.bowerrc",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models/Index.js",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script/development.hbs",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script/production.hbs",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/mixins.scss",
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/.bowerrc",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/app.js",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/views/index.hbs",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/views/category.js",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/views/errors/404.hbs",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/script/global.hbs",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/index.js",
 		"/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/package.json",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/mixins.scss",
 		"/Users/Johnny/Documents/MyFontsWebfontsKit 2/MyFontsWebfontsKit.css",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/grunt/cssmin.js",
 		"/Volumes/BARRACKS/views/shared/_lineage.html.erb",
@@ -736,8 +730,6 @@
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/views/index.js",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/nav.scss",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/nav.hbs",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/footer.hbs",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/helpers/index.js",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models/About.js",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/middleware.js",
 		"/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/templates/layouts/base.hbs",
@@ -834,13 +826,7 @@
 		"/Users/Johnny/Documents/Projects/EL-Website/sites/elab/models/Program.js",
 		"/Users/Johnny/Documents/Projects/EL-Website/sites/elab/models/Publication.js",
 		"/Users/Johnny/Documents/Projects/EL-Website/sites/emerging-citizens/routes/middleware.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/emerging-citizens/routes/index.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/emerging-citizens/app.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/bot/routes/index.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/grunt/concat.js",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/emerging-citizens/config.json",
-		"/Users/Johnny/Documents/Projects/EL-Website/sites/emerging-citizens/package.json",
-		"/Users/Johnny/Documents/Projects/EL-Website/.env"
+		"/Users/Johnny/Documents/Projects/EL-Website/sites/emerging-citizens/routes/index.js"
 	],
 	"find":
 	{
@@ -935,9 +921,14 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Index",
+			"		",
+			"User",
+			"Category",
+			"{{index.getInvolved.html}}",
 			"\n<",
 			"left",
 			"content",
@@ -1060,12 +1051,7 @@
 			"marked",
 			"	\n",
 			"siteInst",
-			"}",
-			"evh",
-			"people_glider",
-			".embed-container",
-			"'/';",
-			"app"
+			"}"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1073,6 +1059,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"ContributorsPage",
+			"Contributor",
 			"uncertainty-dictionary",
 			"Halis",
 			"transition",
@@ -1171,29 +1159,87 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/config.json",
+					"file": "public/styles/core/contributors.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 201,
+						"buffer_size": 630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								144,
-								104
+								540,
+								540
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"syntax": "Packages/Theme - Coffee/icons/Langs/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/partials/nav.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/views/contributors.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -1204,135 +1250,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "templates/layouts/base.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1490,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								965,
-								965
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "templates/partials/footer.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 620,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32,
-								32
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "templates/partials/script/global.hbs",
+					"file": "public/styles/core/category.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1727,
+						"buffer_size": 4016,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1630,
-								1630
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 234.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/partials/script/development.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								322,
-								322
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "public/styles/core/mixins.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7824,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								11,
+								11
 							]
 						],
 						"settings":
@@ -1342,38 +1273,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2288.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "templates/partials/script/production.hbs",
+					"buffer": 4,
+					"file": "routes/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 614,
+						"buffer_size": 1672,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								306,
-								306
+								1161,
+								1174
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1430,7 +1361,7 @@
 	"project": "uncertainty-dictionary.sublime-project",
 	"replace":
 	{
-		"height": 88.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1439,6 +1370,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"css.hbs",
+				"templates/partials/css.hbs"
+			],
+			[
+				"categor",
+				"templates/views/category.hbs"
+			],
 			[
 				"mixins",
 				"public/styles/core/mixins.scss"
@@ -1942,14 +1881,6 @@
 			[
 				"tutoria",
 				"WorldBank-API/content/tutorial.yml"
-			],
-			[
-				"dialogmana",
-				"Assets/Scripts/DialogManager.cs"
-			],
-			[
-				"indicatorscanvas",
-				"Assets/Scripts/UI/Notebook/IndicatorsCanvas.cs"
 			]
 		],
 		"width": 0.0

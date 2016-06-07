@@ -30,7 +30,7 @@ exports = module.exports = function(req, res) {
             if (err) throw err;
 
             if(resultCat === null)
-                return res.notfound('Cannot find category', 'Sorry, but it looks like the category you were looking for does not exist!');
+                return res.notfound('Cannot find page', 'Sorry, but it looks like the page you were looking for does not exist!');
 
             locals.category = resultCat;
 

@@ -59,9 +59,9 @@
 }
 
 #menu-toggle {
-  top: 0;
+  // top: 0;
   right: 0;
-  position: fixed;
+  position: absolute;
   z-index: 1;
 	min-width: 50px;
 	min-height: 50px;

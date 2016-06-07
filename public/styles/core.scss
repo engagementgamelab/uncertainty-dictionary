@@ -10,6 +10,11 @@
 @include font-face(HalisLight, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F7_0_0', null, null, eot woff ttf);
 @include font-face(HalisBold, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/3136F5_1_0', null, null, eot woff ttf);
 
+
+@include font-face(Avenir-Book, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Book', null, null, otf);
+@include font-face(Avenir-Light, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light', null, null, eot woff ttf);
+@include font-face(Avenir-Roman, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman', null, null, eot woff ttf);
+
 // Use for any elements hidden initilly
 .hidden {
 	visibility: hidden;
@@ -24,6 +29,7 @@
   background-color: #000;
   color: #fff;
   font-family: "HalisLight";
+  font-size: 16px;
 }
 
 .desktop-only {
@@ -49,6 +55,8 @@
 
 .home {
 
+  padding-bottom: 5%;
+
 	#title {
 		font-size: 2.9em;
 		text-align: center;
@@ -61,7 +69,7 @@
 
 	#main-blurb {
 	  font-family: "HalisLight";
-		font-size: large;
+		font-size: x-large;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -142,6 +150,7 @@ footer {
 	div {
 		padding-top: 1%;
 		color: #A7A7A7;
+	  font-size: 13px;
 	}
 	img {
 		@include filter(grayscale, 1);
