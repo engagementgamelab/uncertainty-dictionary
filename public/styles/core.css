@@ -452,6 +452,7 @@
     .home .category .transparent {
       opacity: 0; }
     .home .category .blur {
+      transform: scale(1.1);
       -webkit-filter: blur(9px);
       -moz-filter: blur(9px);
       -ms-filter: blur(9px);
@@ -462,6 +463,7 @@
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out; }
     .home .category .bg {
+      transform: scale(1.1);
       position: absolute;
       left: 0;
       right: 0;

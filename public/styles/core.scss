@@ -119,12 +119,14 @@
 		}
 
 		.blur {
+			transform: scale(1.1);
 			@include filter(blur, 9px);
 			@include transition(all .2s ease-in-out);
 			
 			
 		}
 		.bg { 
+		transform: scale(1.1);
 		  position: absolute;
 		  left: 0;
 		  right: 0;
