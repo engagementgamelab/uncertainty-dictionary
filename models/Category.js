@@ -43,8 +43,8 @@ Category.add({
 	dataType: { type: String, label: 'Type of Data', initial: true, required: true },
 	related: { type: String, label: 'Related Types', initial: true, required: true },
 
-	intro: { type: Types.Markdown, label: 'Intro Conent', required: true, initial: true, toolbarOptions: { hiddenButtons: 'H1,H2,H3,H4,Code,Image,Quote' } },
-	content: { type: Types.Markdown, label: 'Page Conent', required: true, initial: true, height: 250, toolbarOptions: { hiddenButtons: 'H3,H4,Code' }},
+	intro: { type: Types.Markdown, label: 'Intro Content', required: true, initial: true, toolbarOptions: { hiddenButtons: 'H1,H2,H3,H4,Code,Image,Quote' } },
+	content: { type: Types.Markdown, label: 'Page Content', required: true, initial: true, height: 250, toolbarOptions: { hiddenButtons: 'H3,H4,Code' }},
 
 	image: { type: Types.CloudinaryImage, label: 'Category Image', folder: 'uncertainty-dictionary', autoCleanup: true },
 	color: { type: Types.Color, label: 'Theme Color', note: 'Color of text in category listing & header color.' },

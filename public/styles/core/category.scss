@@ -4,7 +4,9 @@
 
     padding: 3%;
     color: #000;
-
+    @media (min-width: 425px) and (max-width: 1025px) {
+      font-size:1.6em;
+    }
     @include mobile-only {
       font-size: 2em;
     }
@@ -15,7 +17,9 @@
 
       float: right;
       text-align: right;
-
+      @media (min-width: 425px) and (max-width: 1025px) {
+        width: 50%;
+      }
       @include mobile-only {
         width: 100%;
       }
@@ -56,16 +60,24 @@
     @include mobile-only {
       min-height: 250px;
     }
+    @media (max-width: 1025px) {
+      min-height: 300px;
+    }
     @include desktop-and-up {
       min-height: 500px;
     }
 
     #title {
-      
+      @media (min-width: 425px) and (max-width: 1025px) {
+        padding-top: 10%;
+        padding-left:5%;
+        font-size: 5em;
+      }
       @include mobile-only {
         font-size: 6em;
         text-align: center;
         padding-top: 10%;
+
       }
       @include desktop-and-up {
         position: absolute;
@@ -89,9 +101,10 @@
   #category-intro {
 
     #intro-facts {
-
+      font-family: "Avenir-Roman";
       background-color: #FFF;
       color: #000;
+      padding: 3% 0;
 
       @include mobile-only {
         width: 100%;
@@ -108,7 +121,13 @@
     #intro-sub-header {
 
       margin-top: -8%;
-      
+
+      @include mobile-only {
+        margin-top: 0;
+      }
+      @media (min-width: 425px) and (max-width: 1025px) {
+        margin-top: -3%;
+      }
     }
 
     #intro-body {
@@ -125,8 +144,10 @@
 
       li {
         font-size: medium;
+        font-family: "Avenir-Light";
 
         h1 {
+          font-family: "Avenir-Roman";
           margin-bottom: 0;
           font-weight: bold;
           font-size: medium;
@@ -155,6 +176,10 @@
       font-size: 1.3em;
     }
 
+    h1 {
+      padding-left: 15%;
+      padding-bottom: 1%;
+    }
     p {
 
       @include tablet-landscape-and-up {
@@ -169,6 +194,7 @@
         padding-left: 6%;
         padding-right: 6%;
       }
+      padding-bottom: 2%;
 
     }
 
@@ -176,6 +202,7 @@
     figure {
 
       margin: 2%;
+      max-width: 250px;
 
       @include tablet-landscape-and-up {
         float: right;

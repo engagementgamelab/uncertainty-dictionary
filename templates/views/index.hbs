@@ -1,5 +1,7 @@
 {{!< default}}
 <!--====================BEGIN HOME==============-->
+
+
 <div class="container-fluid home">
 	<div class="row">
 		
@@ -26,9 +28,8 @@
 			{{#each categories}}
 
 				<a href="/{{key}}">
-					<div class="category" style="color: {{color}};">
-						
-						<div class="bg blur" style="background-image: url({{cloudinaryUrl image crop='fill' width=1500 height=190}});"></div>
+					<div class="category" style="color: black;">
+							<div class="blur bg" style="background-image: url({{cloudinaryUrl image crop='fill' width=1500 height=190}}); background-size:contain; overflow-x: hidden; overflow-y: hidden;"></div>
 						
 						<div class="content">
 							<div class="col-sm-5"></div>
