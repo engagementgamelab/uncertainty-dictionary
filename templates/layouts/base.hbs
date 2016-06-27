@@ -56,9 +56,9 @@
 		<script>
 			function fig() {
 				// alert ("functioning");
-				$("#body figure img").each(function() {
+				$("figure.image").each(function() {
 					console.log (JSON.stringify(this));
-					var imageWidth = $(this).css('width');
+					var imageWidth = $(this).find('img').css('width');
 					$(this).find('figcaption').css('width', imageWidth);
 					console.log (imageWidth);
 				});
