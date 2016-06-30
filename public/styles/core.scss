@@ -147,7 +147,7 @@
 		}
 
 		.content {
-			padding-top: 6%;
+			padding-top: 4%;
 		    position: absolute;
 
 			left: 0;
@@ -162,12 +162,14 @@
 		}
 		.name {
 			text-transform: uppercase;
-			font-weight: bold;
-		  font-family: "Avenir-Roman";
+			font-weight: bolder;
+		  font-family: "Avenir";
 		}
 		.right {
 			font-size: medium;
 			text-align: center;
+			font-family: "Avenir";
+			// font-weight: bold;
 		}
 
 	}
