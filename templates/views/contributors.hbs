@@ -8,8 +8,9 @@
 	}
 
 </style>
-<div class="col-sm-12" id="contributors">
+<div class="white banner"></div>
 
+<div class="col-sm-12" id="contributors">
 		<div class="row" id="intro">
 
 			<h1>Contributors</h1>
@@ -21,11 +22,10 @@
 			<h1>Editors</h1>
 
 			<section class="buffer" id="pis">
-				<div class="col-sm-2">
-				</div>
+				
 
 				{{#each pis}}
-					<div class="col-sm-4 pi white">
+					<div class="col-lg-6 col-sm-12 pi white">
 						<img src="{{cloudinaryUrl photo width=190 height=190 }}" />
 						<h2>{{name.first}} {{name.last}}</h2>
 						<div class="bio tk-ltc-bodoni-175">{{{bio.html}}}</div>
@@ -42,27 +42,25 @@
 			
 		</div>
 
-		{{!-- <div class="col-sm-3"></div> --}}
 		<div>
 			<div id="border">&nbsp;</div>
 		</div>
-		{{!-- <div class="col-sm-3"></div> --}}
 			
 		<div class="row clear center">
 			<h1>Contributors</h1>
 
 			<section class="buffer" id="pis">
-				<div class="col-sm-2">
-				</div>
+				
 				{{#each contributors}}
-					<div class="col-sm-4 contributor white">
+					<div class="col-lg-6 col-sm-12 contributor white">
 						<h2>{{name.first}} {{name.last}}</h2>
 						<div class="bio tk-ltc-bodoni-175">{{{bio.html}}}</div>
 						<div class="website"><i class="fa fa-globe"></i><a href="{{website}}">{{urlPurty website}}</a></div>
 					</div>
 				{{/each}}
+
 			</section>
 			
-		</div>
+		</div> 
 
 </div>

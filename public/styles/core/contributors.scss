@@ -3,7 +3,7 @@
 }
 #contributors {
 
-  background-color: #f7f7f7;
+  background-color: $color-gray;
   color: #000;
   padding-bottom: 5%;
 
@@ -12,6 +12,12 @@
     color: #f9a53a;
     margin-right: 1em;
     font-size: large;
+  }
+
+  .buffer#pis {
+    width: 90%;
+    position: relative;
+    margin: 5% auto;
   }
 
   .center {
@@ -33,7 +39,7 @@
     font-size: 1.2em;
     background-color: #f9a53a;
     padding: 5%;
-    margin-top: 5%;
+    // margin-top: 5%;
     font-family: "Avenir-Book";
 
     h1 {
@@ -47,9 +53,23 @@
     margin-left: 35%;
   }
   .pi {
-    margin-bottom: 4%;
-    margin-right: 2%;
+    margin: 2%;
+    position: relative;
+    width: 45%;
     padding: 2%;
+    min-height: 900px;
+
+    @media (min-width: 1025px) {
+      min-height: 650px;
+    }
+    @media (min-width: 1440px) {
+      min-height: 750px;
+    }
+    @media (max-width: 1023px ) {
+      // min-height: 600px;
+      width: 100%;
+      margin: 3% auto;
+    }
   }
 
   .contributor {

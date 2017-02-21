@@ -25,9 +25,12 @@
 		{{!-- FontKit --}}
 		<script src="https://use.typekit.net/cau2rql.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+		
+
 	</head>
 	
-	<body class="body">
+	<body class="body" onload="fig();">
 
 		{{> nav}}
 
@@ -49,5 +52,29 @@
 
 			{{{isAdminEditorJS user}}}
 		</div>
+
+		<script>
+			function fig() {
+				// alert ("functioning");
+				$("figure.image").each(function() {
+					console.log (JSON.stringify(this));
+					var imageWidth = $(this).find('img').css('width');
+					$(this).find('figcaption').css('width', imageWidth);
+					console.log (imageWidth);
+				});
+
+			}
+			$(function () {
+				console.log ("-- BORDERING UP --")
+				var color = $(".category #body a").css("color");
+				console.log (color);
+				$(".category #body h1").each (function () {
+					$(this).css("border-top-color", color);
+				});
+			});
+
+		</script>
+
+		
 	</body>
 </html>

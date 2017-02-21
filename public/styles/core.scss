@@ -12,8 +12,8 @@
 
 
 @include font-face(Avenir-Book, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Book', null, null, otf);
-@include font-face(Avenir-Light, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light', null, null, eot woff ttf);
-@include font-face(Avenir-Roman, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman', null, null, eot woff ttf);
+@include font-face(Avenir-Light, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light', null, null, otf);
+@include font-face(Avenir-Roman, 'https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman', null, null, otf);
 
 // Use for any elements hidden initilly
 .hidden {
@@ -24,12 +24,19 @@
   clear: both;
 }
 
+.page-wrapper {
+	@include mobile-only {
+		padding-left: 1%;
+	}
+}
+
 // Body
 .body {
   background-color: #000;
   color: #fff;
-  font-family: "HalisLight";
-  font-size: 16px;
+  font-family: "Avenir-Light";
+  font-size: 16px
+
 }
 
 .desktop-only {
@@ -46,20 +53,37 @@
 }
 .buffer {
 		margin-top: 5%;
-	
-}
+	}
 
 .main {
 
 }
 
-.home {
 
+#get-involved {
+	h1 {
+		font-family: "Avenir-Roman";
+	}
+	padding: 2% 5%;
+}
+
+.home {
+	a {
+		color: #F7AD85;
+		opacity: 1;
+		text-decoration: none;
+	}
+	a:hover, a:active, a:focus, a:visited {
+		color: #F7AD85;
+		opacity: 0.7;
+		text-decoration: none;
+	}
   padding-bottom: 5%;
 
 	#title {
 		font-size: 2.9em;
 		text-align: center;
+		font-family: "Avenir-Roman";
 
 		#blurred {
 			font-style: italic;
@@ -68,10 +92,12 @@
 	}
 
 	#main-blurb {
-	  font-family: "HalisLight";
+	  font-family: "Avenir-Light";
 		font-size: x-large;
 		padding-left: 5%;
 		padding-right: 5%;
+
+		
 	}
 
 	#categories {
@@ -79,26 +105,28 @@
     position: relative;
     width: 100%;
 	}
-
 	.category {
-
+		overflow: hidden;
 		max-width: 100%;
     min-height: 190px;
 		margin-right: 0;
 		font-size: x-large;
-
-		.blur {
-			
-			@include filter(blur, 9px);
-
-		}
+		@include box-shadow (10px, 10px, 1px, black, false);
 		.transparent {
 			
 			opacity: 0;
 
 		}
 
+		.blur {
+			transform: scale(1.1);
+			@include filter(blur, 9px);
+			@include transition(all .2s ease-in-out);
+			
+			
+		}
 		.bg { 
+		transform: scale(1.1);
 		  position: absolute;
 		  left: 0;
 		  right: 0;
@@ -106,8 +134,8 @@
 
 		  display: block;
 		  width: 100%;
-	    height: 50%;
-		  max-height: 500%;
+		  height: 50%;
+		  // max-height: 500%;
 
 		  cursor: pointer;
 
@@ -115,31 +143,33 @@
 		  // @include transition(-moz-filter .1s);
 		  // @include transition(-ms-filter .1s);
 		  // @include transition(-o-filter .1s);
-		  @include transition(all .2s ease-in-out);
+		  @include box-shadow (10px, 10px, 1px, black, false);
 		}
 
 		.content {
-			padding-top: 6%;
-	    position: absolute;
+			padding-top: 4%;
+		    position: absolute;
 
-		  left: 0;
-		  right: 0;
-		  z-index: 2;
+			left: 0;
+			right: 0;
+			z-index: 2;
 
-		  display: block;
-		  width: 100%;
-		  height: 100%;
+			display: block;
+			width: 100%;
+			height: 100%;
 
-		  @include transition(opacity .2s ease-in-out);
+			@include transition(opacity .2s ease-in-out);
 		}
 		.name {
 			text-transform: uppercase;
-			font-weight: bold;
-		  font-family: "Halis";
+			font-weight: bolder;
+		  font-family: "Avenir";
 		}
 		.right {
 			font-size: medium;
 			text-align: center;
+			font-family: "Avenir";
+			// font-weight: bold;
 		}
 
 	}
@@ -149,8 +179,9 @@
 footer {
 	div {
 		padding-top: 1%;
+		padding-bottom: 2%;
 		color: #A7A7A7;
-	  font-size: 13px;
+		font-size: 13px;
 	}
 	img {
 		@include filter(grayscale, 1);

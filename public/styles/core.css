@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.bold {
+  font-weight: 900; }
+
 #sidebar-wrapper {
   margin-right: -250px;
   right: 0;
@@ -13,6 +16,10 @@
   -moz-transition: all 0.5s ease-in 0s;
   -ms-transition: all 0.5s ease-in 0s;
   -o-transition: all 0.5s ease-in 0s; }
+
+.banner {
+  padding: 2%;
+  min-width: 100%; }
 
 .sidebar-nav {
   position: absolute;
@@ -72,6 +79,9 @@
 .category .heading {
   padding: 3%;
   color: #000; }
+  @media (min-width: 425px) and (max-width: 1025px) {
+    .category .heading {
+      font-size: 1.6em; } }
   @media (max-width: 480px) {
     .category .heading {
       font-size: 2em; } }
@@ -81,6 +91,9 @@
   .category .heading.right {
     float: right;
     text-align: right; }
+    @media (min-width: 425px) and (max-width: 1025px) {
+      .category .heading.right {
+        width: 50%; } }
     @media (max-width: 480px) {
       .category .heading.right {
         width: 100%; } }
@@ -116,9 +129,17 @@
   @media (max-width: 480px) {
     .category #page-header {
       min-height: 250px; } }
+  @media (max-width: 1025px) {
+    .category #page-header {
+      min-height: 300px; } }
   @media only screen and (min-width: 1025px) {
     .category #page-header {
       min-height: 500px; } }
+  @media (min-width: 425px) and (max-width: 1025px) {
+    .category #page-header #title {
+      padding-top: 10%;
+      padding-left: 5%;
+      font-size: 5em; } }
   @media (max-width: 480px) {
     .category #page-header #title {
       font-size: 6em;
@@ -138,8 +159,10 @@
     font-weight: bold; }
 
 .category #category-intro #intro-facts {
+  font-family: "Avenir-Roman";
   background-color: #FFF;
-  color: #000; }
+  color: #000;
+  padding: 3% 0; }
   @media (max-width: 480px) {
     .category #category-intro #intro-facts {
       width: 100%;
@@ -152,6 +175,12 @@
 
 .category #category-intro #intro-sub-header {
   margin-top: -8%; }
+  @media (max-width: 480px) {
+    .category #category-intro #intro-sub-header {
+      margin-top: 0; } }
+  @media (min-width: 425px) and (max-width: 1025px) {
+    .category #category-intro #intro-sub-header {
+      margin-top: -3%; } }
 
 .category #category-intro #intro-body {
   padding-left: 6%;
@@ -162,8 +191,10 @@
 .category #category-intro ul {
   list-style-type: none; }
   .category #category-intro ul li {
-    font-size: medium; }
+    font-size: medium;
+    font-family: "Avenir-Light"; }
     .category #category-intro ul li h1 {
+      font-family: "Avenir-Roman";
       margin-bottom: 0;
       font-weight: bold;
       font-size: medium; }
@@ -184,20 +215,30 @@
   @media (max-width: 480px) {
     .category #body {
       font-size: 1.3em; } }
-  @media only screen and (min-width: 769px) {
-    .category #body p {
-      padding-left: 15%;
-      padding-right: 15%; } }
-  @media only screen and (min-width: 481px) {
-    .category #body p {
-      padding-left: 15%;
-      padding-right: 15%; } }
-  @media (max-width: 480px) {
-    .category #body p {
-      padding-left: 6%;
-      padding-right: 6%; } }
+  .category #body h1 {
+    margin-left: 15%;
+    padding-top: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-top: 2px solid;
+    display: inline-block; }
+  .category #body p {
+    padding-bottom: 2%; }
+    @media only screen and (min-width: 769px) {
+      .category #body p {
+        padding-left: 15%;
+        padding-right: 15%; } }
+    @media only screen and (min-width: 481px) {
+      .category #body p {
+        padding-left: 15%;
+        padding-right: 15%; } }
+    @media (max-width: 480px) {
+      .category #body p {
+        padding-left: 6%;
+        padding-right: 6%; } }
   .category #body figure {
-    margin: 2%; }
+    margin: 2%;
+    max-width: 250px; }
     @media only screen and (min-width: 769px) {
       .category #body figure {
         float: right; } }
@@ -265,13 +306,17 @@
   background-color: #FFF; }
 
 #contributors {
-  background-color: #f7f7f7;
+  background-color: #D3D3D3;
   color: #000;
   padding-bottom: 5%; }
   #contributors .fa {
     color: #f9a53a;
     margin-right: 1em;
     font-size: large; }
+  #contributors .buffer#pis {
+    width: 90%;
+    position: relative;
+    margin: 5% auto; }
   #contributors .center {
     text-align: center; }
   #contributors h1 {
@@ -286,7 +331,6 @@
     font-size: 1.2em;
     background-color: #f9a53a;
     padding: 5%;
-    margin-top: 5%;
     font-family: "Avenir-Book"; }
     #contributors #intro h1 {
       font-size: 1.8em; }
@@ -295,9 +339,21 @@
     margin-right: 35%;
     margin-left: 35%; }
   #contributors .pi {
-    margin-bottom: 4%;
-    margin-right: 2%;
-    padding: 2%; }
+    margin: 2%;
+    position: relative;
+    width: 45%;
+    padding: 2%;
+    min-height: 900px; }
+    @media (min-width: 1025px) {
+      #contributors .pi {
+        min-height: 650px; } }
+    @media (min-width: 1440px) {
+      #contributors .pi {
+        min-height: 750px; } }
+    @media (max-width: 1023px) {
+      #contributors .pi {
+        width: 100%;
+        margin: 3% auto; } }
   #contributors .contributor {
     margin-bottom: 4%;
     margin-right: 2%;
@@ -325,11 +381,11 @@
 
 @font-face {
   font-family: "Avenir-Light";
-  src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light.eot?") format("eot"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light.woff") format("woff"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light.ttf") format("truetype"); }
+  src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Light.otf") format("opentype"); }
 
 @font-face {
   font-family: "Avenir-Roman";
-  src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman.eot?") format("eot"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman.woff") format("woff"), url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman.ttf") format("truetype"); }
+  src: url("https://res.cloudinary.com/engagement-lab-home/raw/upload/uncertainty-dictionary/fonts/AvenirLTStd-Roman.otf") format("opentype"); }
 
 .hidden {
   visibility: hidden; }
@@ -337,10 +393,14 @@
 .clear {
   clear: both; }
 
+@media (max-width: 480px) {
+  .page-wrapper {
+    padding-left: 1%; } }
+
 .body {
   background-color: #000;
   color: #fff;
-  font-family: "HalisLight";
+  font-family: "Avenir-Light";
   font-size: 16px; }
 
 @media (max-width: 480px) {
@@ -354,15 +414,29 @@
 .buffer {
   margin-top: 5%; }
 
+#get-involved {
+  padding: 2% 5%; }
+  #get-involved h1 {
+    font-family: "Avenir-Roman"; }
+
 .home {
   padding-bottom: 5%; }
+  .home a {
+    color: #F7AD85;
+    opacity: 1;
+    text-decoration: none; }
+  .home a:hover, .home a:active, .home a:focus, .home a:visited {
+    color: #F7AD85;
+    opacity: 0.7;
+    text-decoration: none; }
   .home #title {
     font-size: 2.9em;
-    text-align: center; }
+    text-align: center;
+    font-family: "Avenir-Roman"; }
     .home #title #blurred {
       font-style: italic; }
   .home #main-blurb {
-    font-family: "HalisLight";
+    font-family: "Avenir-Light";
     font-size: x-large;
     padding-left: 5%;
     padding-right: 5%; }
@@ -371,19 +445,29 @@
     position: relative;
     width: 100%; }
   .home .category {
+    overflow: hidden;
     max-width: 100%;
     min-height: 190px;
     margin-right: 0;
-    font-size: x-large; }
+    font-size: x-large;
+    -webkit-box-shadow: 10px 10px 1px black;
+    -moz-box-shadow: 10px 10px 1px black;
+    box-shadow: 10px 10px 1px black; }
+    .home .category .transparent {
+      opacity: 0; }
     .home .category .blur {
+      transform: scale(1.1);
       -webkit-filter: blur(9px);
       -moz-filter: blur(9px);
       -ms-filter: blur(9px);
       -o-filter: blur(9px);
-      filter: blur(9px); }
-    .home .category .transparent {
-      opacity: 0; }
+      filter: blur(9px);
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
     .home .category .bg {
+      transform: scale(1.1);
       position: absolute;
       left: 0;
       right: 0;
@@ -391,14 +475,12 @@
       display: block;
       width: 100%;
       height: 50%;
-      max-height: 500%;
       cursor: pointer;
-      -moz-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
-      -webkit-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out; }
+      -webkit-box-shadow: 10px 10px 1px black;
+      -moz-box-shadow: 10px 10px 1px black;
+      box-shadow: 10px 10px 1px black; }
     .home .category .content {
-      padding-top: 6%;
+      padding-top: 4%;
       position: absolute;
       left: 0;
       right: 0;
@@ -412,14 +494,16 @@
       transition: opacity 0.2s ease-in-out; }
     .home .category .name {
       text-transform: uppercase;
-      font-weight: bold;
-      font-family: "Halis"; }
+      font-weight: bolder;
+      font-family: "Avenir"; }
     .home .category .right {
       font-size: medium;
-      text-align: center; }
+      text-align: center;
+      font-family: "Avenir"; }
 
 footer div {
   padding-top: 1%;
+  padding-bottom: 2%;
   color: #A7A7A7;
   font-size: 13px; }
 
