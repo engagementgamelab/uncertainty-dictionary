@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"padding-bottom"
+			],
+			[
 				"font",
 				"font-size"
 			],
@@ -41,7 +45,7 @@
 			],
 			[
 				"sr",
-				"script	Tag"
+				"script\tTag"
 			],
 			[
 				"time",
@@ -510,20 +514,33 @@
 			[
 				"up",
 				"updatedBy"
-			],
-			[
-				"slac",
-				"slack"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "templates/views/contributors.hbs",
+			"file": "templates/partials/footer.hbs",
 			"settings":
 			{
-				"buffer_size": 1703,
+				"buffer_size": 620,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 580,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "uncertainty-dictionary.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +548,7 @@
 			"file": "public/styles/core/contributors.scss",
 			"settings":
 			{
-				"buffer_size": 862,
+				"buffer_size": 965,
 				"line_ending": "Unix"
 			}
 		},
@@ -556,14 +573,6 @@
 			"settings":
 			{
 				"buffer_size": 3013,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/partials/css.hbs",
-			"settings":
-			{
-				"buffer_size": 1602,
 				"line_ending": "Unix"
 			}
 		},
@@ -725,9 +734,6 @@
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/bower_components",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/routes/views",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/helpers",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/layouts",
@@ -738,12 +744,12 @@
 	],
 	"file_history":
 	[
+		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/css.hbs",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/nav.hbs",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core.css",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/nav.scss",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/models/Contributor.js",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/helpers/index.js",
-		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/templates/partials/css.hbs",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core.scss",
 		"/Users/Johnny/Documents/Projects/uncertainty-dictionary/public/styles/core/category.scss",
 		"/Users/Johnny/Documents/Projects/Uncertainty-Dictionary/config.json",
@@ -966,7 +972,7 @@
 			"twitter",
 			"8em",
 			"Index",
-			"		",
+			"\t\t",
 			"User",
 			"Category",
 			"{{index.getInvolved.html}}",
@@ -1090,7 +1096,7 @@
 			"mountSubSite",
 			"directory",
 			"marked",
-			"	\n"
+			"\t\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1198,28 +1204,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/views/contributors.hbs",
+					"file": "templates/partials/footer.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1703,
+						"buffer_size": 620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								579,
-								579
-							],
-							[
-								590,
-								590
+								395,
+								395
 							]
 						],
 						"settings":
@@ -1228,27 +1230,84 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 227.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "public/styles/core/contributors.scss",
+					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 862,
+						"buffer_size": 580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								71,
-								93
+								493,
+								493
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "uncertainty-dictionary.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/styles/core/contributors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								919
 							]
 						],
 						"settings":
@@ -1258,14 +1317,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "public/styles/core/nav.scss",
 					"semi_transient": false,
 					"settings":
@@ -1288,14 +1347,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 497.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "public/styles/core/fonts.scss",
 					"semi_transient": false,
 					"settings":
@@ -1320,11 +1379,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "public/styles/core.scss",
 					"semi_transient": false,
 					"settings":
@@ -1346,43 +1405,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 37.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "templates/partials/css.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1507,
-								1507
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "public/styles/core/category.scss",
 					"semi_transient": false,
 					"settings":
@@ -1408,11 +1438,11 @@
 						"translation.y": 1016.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "templates/helpers/index.js",
 					"semi_transient": false,
 					"settings":
@@ -1438,11 +1468,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "routes/index.js",
 					"semi_transient": false,
 					"settings":
@@ -1466,11 +1496,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "routes/views/category.js",
 					"semi_transient": false,
 					"settings":
@@ -1500,7 +1530,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]

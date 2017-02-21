@@ -15,9 +15,11 @@
 		{{!-- Open Graph --}}
 		{{!-- <meta property="og:image" content="http://res.cloudinary.com/engagement-lab-home/image/upload/v1455896685/site/about/logo_color.png" /> --}}
 
+    {{!-- Load web SDK's core script/docs --}}
+    {{> core environment=env}}
+
 		{{!-- Load our CSS/docs --}}
-		{{> css environment=env}}
-		
+		{{> css environment=env}}		
 		{{!-- This file provides the default styling for the KeystoneJS Content Editor
 		- only renders when user is logged in and admin--}}
 		{{!-- {{{isAdminEditorCSS user}}} --}}
@@ -64,14 +66,10 @@
 				});
 
 			}
-			$(function () {
-				console.log ("-- BORDERING UP --")
 				var color = $(".category #body a").css("color");
-				console.log (color);
 				$(".category #body h1").each (function () {
 					$(this).css("border-top-color", color);
 				});
-			});
 
 		</script>
 
